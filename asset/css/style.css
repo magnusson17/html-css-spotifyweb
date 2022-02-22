@@ -134,6 +134,24 @@ body{
 }
 
 @media screen and (min-width:425px) and (max-width:1024px) {
+    #aside{
+        width: 25%;
+        /* height: calc(100vh - 80px);
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+    }
+    #main{
+        width: 75%;
+        /* height: calc(100vh - 80px);
+        background-color: rgb(71, 62, 62);
+        padding-top: calc(10vh + 2vh);
+        overflow-y: auto; */
+    }
+    #main-header{
+        width: 75%;
+    }
     .main-h2{
         width: 100%;
     }
