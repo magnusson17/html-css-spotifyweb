@@ -11,13 +11,15 @@ body{
     width: 10%;
     height: calc(100vh - 10vh);
     background-color: black;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #main{
     width: 90%;
     height: calc(100vh - 10vh);
     background-color: gray;
-    display: inline-block;
+    display: flex;
 }
 #main-header{
     position: fixed;
