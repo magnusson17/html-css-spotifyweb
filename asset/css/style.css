@@ -18,6 +18,14 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.aside-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.aside-container div{
+    width: 100%;
+    margin: 10px 0;
+}
 #main{
     width: 90%;
     height: calc(100vh - 50px);
