@@ -26,6 +26,9 @@ body{
     width: 100%;
     margin: 10px 0;
 }
+.aside__logo-tablet{
+    display: none;
+}
 #main{
     width: 90%;
     height: calc(100vh - 80px);
@@ -141,6 +144,12 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between; */
+    }
+    .aside__logo-tablet{
+        display: block;
+    }
+    .aside__logo-mobile{
+        display: none;
     }
     #main{
         width: 75%;
