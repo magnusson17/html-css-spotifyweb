@@ -49,6 +49,24 @@
     font-size: 2em;
 }
 
+/*SCROLL BAR STYLE for Chrome*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: silver;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(130, 130, 130);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+}
+
+
 /*INPUT RAGE STYLE for Chrome*/
 input[type='range'] {
     -webkit-appearance: none;
