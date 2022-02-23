@@ -171,6 +171,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: 1;
 }
 
 .main-header__button {
