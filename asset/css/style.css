@@ -77,7 +77,7 @@ body{
     width: 90%;
     /* flex-basis: calc(100% -10%); */
     height: calc(100vh - 100px);
-    background-color: rgb(71, 62, 62);
+    background-color: #262e35;
     /* display: flex; */
     padding-top: calc(100px + 2vh);
     overflow-y: auto;
@@ -182,7 +182,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(105, 95, 95);
+    background-color: #282828;
     color: white;
     overflow: hidden;
 }
