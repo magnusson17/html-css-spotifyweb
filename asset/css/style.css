@@ -25,7 +25,7 @@
     width: 80%;
 }
 
-.margin-dx-sx-20px{
+.margin-dx-sx-20px {
     margin: 0 20px;
 }
 
@@ -308,12 +308,6 @@ body {
     align-items: center;
 }
 
-/* .footer-2nd-container__2nd-column div::before{
-    content: "0.25";
-}
-.footer-2nd-container__2nd-column div::after{
-    content: "4.35";
-} */
 /*third container footer*/
 .footer-3rd-container {
     display: none;
