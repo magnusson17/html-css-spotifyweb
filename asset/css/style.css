@@ -238,6 +238,11 @@ body {
     text-align: center;
 }
 
+.main-main-container__movie-div span {
+    display: block;
+    text-align: center;
+}
+
 .img-circle {
     border-radius: 50%;
 }
