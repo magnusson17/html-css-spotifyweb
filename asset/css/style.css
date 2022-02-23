@@ -10,6 +10,9 @@
 .display-none{
     display: none;
 }
+.color-silver{
+    color: silver;
+}
 .width-100-100{
     width: 100%;
 }
@@ -25,6 +28,24 @@
 .f-size-2-em{
     font-size: 2em;
 }
+input[type='range'] {
+    -webkit-appearance: none;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    border-radius: 5px;
+  }
+  input[type='range']::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0.1px;
+    height: 5px;
+    box-shadow: -100px 0 0 100px silver;
+  }
 /*BODY*/
 body{
     display: flex;
@@ -186,6 +207,9 @@ body{
     color: white;
     overflow: hidden;
 }
+#footer i{
+    cursor: pointer;
+}
 /*first container footer*/
 .footer-1st-container{
     height: 80%;
@@ -197,6 +221,9 @@ body{
 .footer-1st-container img{
     height: 100%;
 }
+.footer-1st-container i:hover{
+    color: white;
+}
 /*second container footer*/
 .footer-2nd-container{
     display: flex;
@@ -205,7 +232,7 @@ body{
     align-items: center;
     height: 100%;
     width: 80%;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 .footer-2nd-container__1st-column{
     display: flex;
@@ -214,7 +241,9 @@ body{
 }
 .footer-2nd-container__1st-column div{
     margin: 0 20px;
-    cursor: pointer;
+}
+.footer-2nd-container__1st-column__play-icon-div:hover{
+    transform: scale(1.2);
 }
 /* .footer-2nd-container__1st-column div:hover{
     font-size: 2em;
@@ -248,15 +277,18 @@ body{
         margin: 0 auto;
     }
     .aside-container div{
-        width: 100%;
-        margin: 0px;
-        padding: 10px;
+        /* width: 100%; */
+        padding-left: 10px;
     }
     .aside__logo-tablet{
         display: block;
+        padding: 10px;
     }
     .aside__logo-mobile{
         display: none;
+    }
+    .aside__active-section{
+        border-left: 2px solid rgb(6, 173, 6);
     }
     .aside__img-tablet{
         width: 20px;
@@ -274,7 +306,7 @@ body{
     }
     .aside__hr{
         display: block;
-        padding: 10px;
+        padding: 0 10px;
     }
     #main{
         flex-basis: calc(100% - 200px);
@@ -285,6 +317,9 @@ body{
     }
     #main-header{
         width: calc(100% - 200px);
+    }
+    .main__nav__active-section{
+        border-bottom: 2px solid rgb(6, 173, 6);
     }
     .main-main-container__movie-div{
         width: calc(25% - 3vw);
