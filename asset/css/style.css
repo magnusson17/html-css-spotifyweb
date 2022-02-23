@@ -54,6 +54,12 @@ body{
 .aside_playlist{
     display: none;
 }
+.aside_playlist li{
+    margin: 10px 0;
+}
+.aside_playlist i{
+    font-size: 1.5em;
+}
 .aside__hr{
     display: none;
 }
@@ -338,8 +344,13 @@ body{
     }
 }
 
-@media screen and (max-height:300px) {
-    #main-header{
+@media screen and (max-height:100px) {
+    #main-header,
+    #main,
+    #aside{
         display: none;
+    }
+    #footer{
+        z-index: 999;
     }
 }
