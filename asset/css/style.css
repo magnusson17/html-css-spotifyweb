@@ -254,7 +254,6 @@ body {
 /*first container footer*/
 .footer-1st-container {
     height: 80%;
-    /* flex-basis: 30%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,6 +304,13 @@ body {
 /*third container footer*/
 .footer-3rd-container {
     display: none;
+}
+
+/*SMALL MOBILE MEDIA QUERY*/
+@media screen and (max-width:350px) {
+    .footer-1st-container {
+        display: none;
+    }
 }
 
 /*TABLET MEDIA QUERY*/
@@ -484,7 +490,7 @@ body {
         display: block;
     }
 }
-}
+
 
 /*MEDIA QUERY for HEIGHT*/
 @media screen and (max-height:180px) {
