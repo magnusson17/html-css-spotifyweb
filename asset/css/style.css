@@ -16,6 +16,9 @@ body{
 .width-100-100{
     width: 100%;
 }
+.margin-dx-5px-sx-10px{
+    margin: 0 10px 0 5px;
+}
 #aside{
     width: 10%;
     /* flex-basis: calc(100% - 90%); */
@@ -24,6 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 #aside a{
     text-decoration: none;
@@ -144,12 +148,13 @@ body{
     align-items: center;
     background-color: rgb(105, 95, 95);
     color: white;
+    overflow: hidden;
 }
 .footer-1st-container{
     height: 80%;
     flex-basis: 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .footer-1st-container img{
@@ -259,7 +264,7 @@ body{
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
     #aside{
         flex-basis: 200px;
         /* height: calc(100vh - 80px);
@@ -295,7 +300,6 @@ body{
     }
     .aside_playlist{
         display: block;
-        overflow-y: auto;
     }
     .aside__hr{
         display: block;
@@ -324,7 +328,18 @@ body{
         align-items: center;
         flex-basis: 25%;
     }
+    .footer-3rd-container__icon{
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-around;
+    }
     .display-none{
         display: block;
+    }
+}
+
+@media screen and (max-height:300px) {
+    #main-header{
+        display: none;
     }
 }
