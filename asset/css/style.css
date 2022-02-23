@@ -103,7 +103,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #aside a {
@@ -136,6 +136,8 @@ body {
 
 .aside_playlist {
     display: none;
+    height: 120px;
+    overflow-y: auto;
 }
 
 .aside_playlist li {
@@ -387,7 +389,6 @@ body {
 
     .aside_playlist {
         display: block;
-        overflow-y: auto;
     }
 
     .aside__hr {
@@ -476,7 +477,6 @@ body {
 
     .aside_playlist {
         display: block;
-        overflow-y: auto;
     }
 
     .aside__hr {
