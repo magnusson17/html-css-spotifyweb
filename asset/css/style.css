@@ -364,6 +364,13 @@ body {
         padding-left: 10px;
     }
 
+    .aside-2nd-container__img-profile img {
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        background-color: #282828;
+    }
+
     .aside__logo-tablet {
         display: block;
     }
@@ -449,6 +456,13 @@ body {
 
     .aside-container div {
         padding-left: 10px;
+    }
+
+    .aside-2nd-container__img-profile img {
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        background-color: #282828;
     }
 
     .aside__logo-tablet {
