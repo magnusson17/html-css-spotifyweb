@@ -16,8 +16,14 @@
 .margin-dx-5px-sx-10px{
     margin: 0 10px 0 5px;
 }
+.f-size-1-2-em{
+    font-size: 1.2em;
+}
 .f-size-1-7-em{
     font-size: 1.7em;
+}
+.f-size-2-em{
+    font-size: 2em;
 }
 /*BODY*/
 body{
@@ -62,9 +68,6 @@ body{
 }
 .aside_playlist li{
     margin: 10px 0;
-}
-.aside_playlist i{
-    font-size: 1.5em;
 }
 .aside__hr{
     display: none;
