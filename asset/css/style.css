@@ -356,6 +356,7 @@ body {
 /*third container footer*/
 .footer-3rd-container {
     display: none;
+    font-size: 0.7em;
 }
 
 /*SMALL MOBILE MEDIA QUERY*/
@@ -546,6 +547,7 @@ body {
 
     .footer-3rd-container {
         display: flex;
+        font-size: 1em;
     }
 
     .footer-3rd-container i {
