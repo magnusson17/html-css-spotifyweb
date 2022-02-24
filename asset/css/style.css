@@ -312,6 +312,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 00.7em;
+    white-space: nowrap;
 }
 
 .footer-1st-container img {
