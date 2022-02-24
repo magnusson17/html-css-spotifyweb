@@ -429,8 +429,10 @@ body {
         width: calc(100% - 200px);
     }
 
-    .main__nav__active-section {
+    .main__nav__active-section__underline {
         border-bottom: 2px solid rgb(6, 173, 6);
+        width: 50%;
+        margin: 2px auto;
     }
 
     .main-main-container__movie-div {
@@ -523,8 +525,10 @@ body {
         width: calc(100% - 200px);
     }
 
-    .main__nav__active-section {
+    .main__nav__active-section__underline {
         border-bottom: 2px solid rgb(6, 173, 6);
+        width: 50%;
+        margin: 2px auto;
     }
 
     .main-main-container__movie-div {
