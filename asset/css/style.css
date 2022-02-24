@@ -84,9 +84,21 @@ input[type='range']::-webkit-slider-runnable-track {
 
 input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 0.1px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
+    /* height: 5px; */
+    background-color: silver;
     box-shadow: -500px 0 0 500px silver;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    /* border-radius: 50%; */
+    /* margin-top: -5px; */
+    background-color: black;
+    box-shadow: -500px 0 0 500px rgb(17, 218, 17);
 }
 
 /*BODY*/
