@@ -148,13 +148,16 @@ body {
     display: none;
 }
 
-.aside_playlist {
+.aside__playlist {
     display: none;
+}
+
+.aside__playlist__ul{
     height: 120px;
     overflow-y: auto;
 }
 
-.aside_playlist li {
+.aside__playlist li {
     margin: 10px 0;
 }
 
@@ -408,7 +411,7 @@ body {
         display: inline;
     }
 
-    .aside_playlist {
+    .aside__playlist {
         display: block;
     }
 
@@ -502,7 +505,7 @@ body {
         display: inline;
     }
 
-    .aside_playlist {
+    .aside__playlist {
         display: block;
     }
 
