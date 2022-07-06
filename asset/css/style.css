@@ -273,16 +273,23 @@ body {
 }
 
 .hover-play-button {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
+    transition: visibility 0.5s, opacity 0.5s;
 }
 
 .main-main-container__movie-div__img-div:hover .hover-play-button {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+img {
+    transition: 0.5s;
 }
 
 .main-main-container__movie-div__img-div:hover img {
